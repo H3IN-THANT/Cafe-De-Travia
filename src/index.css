@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FFF9F1;
+    color: #2B211D;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom background patterns and subtle textures */
+.bg-warm-cream {
+  background-color: #F5E9DA;
+}
+
+.bg-warm-beige {
+  background-color: #EFE6D8;
+}
+
+.bg-warm-bg {
+  background-color: #FFF9F1;
+}
+
+.bg-espresso {
+  background-color: #2B211D;
+}
+
+.bg-primary-brown {
+  background-color: #5C3A2E;
+}
+
+.bg-terracotta {
+  background-color: #C9785C;
+}
+
+.bg-sage {
+  background-color: #8C9A7A;
+}
+
+.text-espresso {
+  color: #2B211D;
+}
+
+.text-primary-brown {
+  color: #5C3A2E;
+}
+
+.text-terracotta {
+  color: #C9785C;
+}
+
+.text-sage {
+  color: #8C9A7A;
+}
+
+.border-warm-beige {
+  border-color: #EFE6D8;
+}
+
+.border-warm-cream {
+  border-color: #F5E9DA;
+}
+
+.border-terracotta {
+  border-color: #C9785C;
+}
+
+/* Subtle paper/grain noise texture */
+.bg-grain {
+  background-image: radial-gradient(rgba(92, 58, 46, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF9F1;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9C3B0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C9785C;
+}
+

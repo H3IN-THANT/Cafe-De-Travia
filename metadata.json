@@ -1,0 +1,6 @@
+{
+  "name": "Café De Travia",
+  "description": "A warm, handcrafted bakery café landing page featuring fresh artisan breads, delicate pastries, signature coffee, and daily specials.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
